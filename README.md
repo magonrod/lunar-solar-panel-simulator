@@ -1,6 +1,6 @@
 # Lunar Solar Panel Simulator
 
-A MATLAB-based tool for simulating and optimizing the positioning of solar panels on the Moon. This simulator estimates solar energy generation over time at a given lunar location, accounting for shadowing, thermal conditions and the Sun's motion. It also includes a module for optimizing panel orientation and positioning to maximize energy yield during a mission period.
+A MATLAB-based tool for simulating and optimizing the positioning of solar panels on the Moon. This simulator estimates solar energy generation over time at a given lunar location, accounting for shadowing, thermal conditions and the Sun's motion. It also includes a module for optimizing panel positioning to maximize energy yield during a mission period.
 
 ## Features
 
@@ -23,5 +23,6 @@ A MATLAB-based tool for simulating and optimizing the positioning of solar panel
 
 - Improve speed and scalability of optimization
 - Integration with external simulation frameworks
+- Add orientation configurations and optimization
 
 ## How to use
