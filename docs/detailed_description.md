@@ -26,6 +26,7 @@ The shadow cast by point **B** on point **A** is computed considering their heig
 $$
 H_C = H_A + \tan(\gamma) \cdot \text{distance}_{AB}
 $$
+![2D_terrain](images/2D_terrain.png)
 
 * The Moon’s curvature is neglected between points A and B (assumed flat), which can introduce errors for distant points.
 
@@ -42,6 +43,7 @@ where $R$ is the Moon’s radius.
 $$
 H_B > H_C + H_{\text{apparent}}
 $$
+![curvature_distorsion](images/curvature_distorsion.png)
 
 * To limit calculations, a comparison radius of 260 km is used based on lunar topography extrema.
 
