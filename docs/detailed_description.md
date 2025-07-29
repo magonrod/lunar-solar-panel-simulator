@@ -1,4 +1,4 @@
-Simulator Development
+# Simulator Development
 
 The simulator’s objective function estimates the energy output based on:
 
