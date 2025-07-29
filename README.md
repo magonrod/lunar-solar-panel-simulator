@@ -15,6 +15,10 @@ A MATLAB-based tool for simulating and optimizing the positioning of solar panel
 - Academic research in extraterrestrial energy systems
 - Visualization of solar availability in different lunar regions
 
+## More information
+
+- For a more comprehensive explanation of the operration, hypotesis and limitations, check docs/
+
 ## Roadmap
 
 - Improve speed and scalability of optimization
