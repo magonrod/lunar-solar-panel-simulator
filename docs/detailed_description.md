@@ -163,3 +163,44 @@ $$
 
 since there is no atmosphere to attenuate sunlight.
 
+
+ROOT
+├── Shadow Module
+│   ├── Inputs:
+│   │   ├── Time UTC
+│   │   └── DEM (x, y, z)
+│   ├── Hour Angle  <─ Time UTC
+│   ├── Solar Declination  <─ Time UTC
+│   ├── Longitude Subsolar Point  <─ Hour Angle
+│   ├── Latitude Subsolar Point  <─ Solar Declination
+│   ├── Solar Azimuth  <─ Longitude & Latitude Subsolar Point
+│   ├── Solar Altitude  <─ Longitude & Latitude Subsolar Point
+│   ├── Latitude A, Longitude A  <─ DEM
+│   ├── Latitude B, Longitude B  <─ DEM
+│   ├── Raytracing  <─ Latitude A/B, Solar Azimuth, Solar Altitude
+│   └── Output:
+│       └── S (1/0)
+├── Solar Radiation Module
+│   ├── Input: I
+│   └── Solar Radiation Constant
+│       └── Output: I
+├── Temperature Module
+│   ├── Inputs:
+│   │   ├── alpha, epsilon, sigma
+│   │   └── S (1/0)
+│   └── Instantaneous Temperature
+│       └── Output: T
+├── Efficiency Module
+│   ├── Inputs:
+│   │   ├── eta_ref, beta_ref, T_ref
+│   │   └── T (from Temperature Module)
+│   └── Solar Panel Efficiency
+│       └── Output: eta
+└── Energy Module
+    ├── Inputs:
+    │   ├── A (panel area — implied)
+    │   ├── I (from Solar Radiation Module)
+    │   ├── S (from Shadow Module)
+    │   └── eta (from Efficiency Module)
+    └── Total Energy
+        └── E = sum(A * I * S * eta)
