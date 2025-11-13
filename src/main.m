@@ -54,7 +54,7 @@ fprintf('T_ref: %.2f\n', params.T_ref);
 fprintf('beta_ref I: %.4f W/m²\n', params.beta_ref);
 fprintf('eta_ref: %.4f\n', params.eta_ref);
 fprintf('---------------------------\n', params.influence_radius);
-S = load('SLDEM2015_north_to_south.mat');
+S = load('SLDEM2015_north_to_south.mat'); %% This should be the name of your DEM file
 DEM = S.Z_flipped;
 R = S.R_flipped;
 
@@ -71,4 +71,5 @@ fprintf('╔══════════════════════�
 fprintf('║     Total Energy Computed    ║\n');
 fprintf('╚══════════════════════════════╝\n');
 fprintf('%.4f W\n', energyOutput);
+
 
