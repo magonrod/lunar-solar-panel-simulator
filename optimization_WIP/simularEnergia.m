@@ -43,3 +43,4 @@ function energy = simularEnergia(lat, lon, DEM, R)
 
     energy = totalEnergy; % Positivo: producción total anual (o mensual)
 end
+
