@@ -37,5 +37,3 @@ The current version of the code calculates estimated energy output based on the 
 - Test scripts for validating results across different dates (to account for variations in solar altitude).
 - Inclusion of a DEM (Digital Elevation Model) file.
 - Improve speed and scalability of optimization
-- Integration with external simulation frameworks
-- Add orientation configurations and optimization
