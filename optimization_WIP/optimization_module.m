@@ -176,3 +176,4 @@ function [stop, options, optchanged] = sa_tracker_inline(options, optimvalues, f
             assignin('base', 'evaluated_points', all_points);
     end
 end
+
