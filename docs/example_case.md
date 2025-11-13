@@ -1,3 +1,22 @@
+# Table of Contents
+
+- [Simulation example](#simulation-example)
+  - [Design of Experiments](#design-of-experiments)
+    - [Sampling the Design Space](#sampling-the-design-space)
+    - [Correlations](#correlations)
+  - [Single-Objective Optimization with Gradient-Based Algorithms](#single-objective-optimization-with-gradient-based-algorithms)
+    - [Gradient-Based Algorithms](#gradient-based-algorithms)
+      - [Algorithm Selection](#algorithm-selection)
+      - [Single-Objective Optimization](#single-objective-optimization)
+      - [Sensitivity Analysis](#sensitivity-analysis)
+      - [Global Optimum](#global-optimum)
+  - [Heuristic Methods, Scaling](#heuristic-methods-scaling)
+    - [Particle Swarm Optimization (PSO)](#particle-swarm-optimization-pso)
+    - [Simulated Annealing (SA)](#simulated-annealing-sa)
+    - [Summary Table of Algorithms](#summary-table-of-algorithms)
+
+---
+
 # Simulation example
 
 ## Design of Experiments
