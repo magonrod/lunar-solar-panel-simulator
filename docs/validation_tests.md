@@ -1,3 +1,13 @@
+# Table of Contents
+
+- [Simulator Validation](#simulator-validation)
+  - [Data Interpretation](#data-interpretation)
+  - [Shadow Simulator Validation](#shadow-simulator-validation)
+  - [Temperature Validation](#temperature-validation)
+  - [Efficiency Validation](#efficiency-validation)
+
+---
+
 # Simulator Validation
 
 ### Data Interpretation
